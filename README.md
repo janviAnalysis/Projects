@@ -1,7 +1,7 @@
 # Blinkit - India's Last Minute App Dashboard
 This project presents a comprehensive dashboard for Blinkit, an application designed to facilitate last-minute shopping in India. The dashboard provides a detailed analysis of various metrics related to sales, item types, outlet sizes, and locations. The data has been meticulously transformed and cleaned, followed by extensive Exploratory Data Analysis (EDA) to ensure accuracy and relevance.
 
-Key Features:
+## Key Features:
 Total Sales: The dashboard displays a total sales figure of 1.20M, providing a quick overview of the overall sales performance.
 
 Average Sales and Rating: It includes metrics for average sales (1.00) and average rating (3.9), offering insights into sales trends and customer satisfaction.
@@ -18,11 +18,11 @@ Outlet Size and Location: Analysis of outlet sizes (medium, small, high) and loc
 
 Outlet Type Performance: Comparative data for different outlet types (Supermarket Type 1, Grocery Store, Supermarket Type 2, Supermarket Type 3) including total sales, average sales, total items, and item visibility.
 
-Data Transformation and Cleaning:
+## Data Transformation and Cleaning:
 The data used in this project has undergone significant transformation and cleaning processes to ensure its accuracy and reliability. This involved handling missing values, correcting inconsistencies, and normalizing data formats.
 
-Exploratory Data Analysis (EDA):
+## Exploratory Data Analysis (EDA):
 Extensive EDA was conducted to uncover patterns, correlations, and insights within the data. This helped in creating a meaningful and informative dashboard that provides actionable insights for decision-makers.
 
-Credits:
+## Credits:
 This project was guided by Data Tutorials, a YouTube channel that provided valuable insights and tutorials on data analysis and visualization. Special thanks to Data Tutorials for their support and guidance.
