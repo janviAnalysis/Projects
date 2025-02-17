@@ -1,4 +1,4 @@
-Blinkit - India's Last Minute App Dashboard
+# Blinkit - India's Last Minute App Dashboard
 This project presents a comprehensive dashboard for Blinkit, an application designed to facilitate last-minute shopping in India. The dashboard provides a detailed analysis of various metrics related to sales, item types, outlet sizes, and locations. The data has been meticulously transformed and cleaned, followed by extensive Exploratory Data Analysis (EDA) to ensure accuracy and relevance.
 
 Key Features:
