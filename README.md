@@ -1,28 +1,70 @@
-# Blinkit - India's Last Minute App Dashboard
-This project presents a comprehensive dashboard for Blinkit, an application designed to facilitate last-minute shopping in India. The dashboard provides a detailed analysis of various metrics related to sales, item types, outlet sizes, and locations. The data has been meticulously transformed and cleaned, followed by extensive Exploratory Data Analysis (EDA) to ensure accuracy and relevance.
+# Blinkit Sales Analysis Dashboard
 
-## Key Features:
-Total Sales: The dashboard displays a total sales figure of 1.20M, providing a quick overview of the overall sales performance.
+This project analyzes Blinkit's sales data to gain insights into key performance indicators and trends. The dashboard provides a comprehensive overview of sales performance, item-specific metrics, and outlet-level analysis.
 
-Average Sales and Rating: It includes metrics for average sales (1.00) and average rating (3.9), offering insights into sales trends and customer satisfaction.
+## Project Overview
 
-Total Items: A total of 8523 items are accounted for, categorized by various item types and fat content.
+The dashboard offers a user-friendly interface for exploring Blinkit's sales data. Key features include:
 
-Fat Content Analysis: The dashboard differentiates between low-fat and regular items, with total sales figures of 425.36K for low-fat and 776.32K for regular items.
+- **Total Sales and Average Sales:** Displays overall sales and average sales performance.
+- **Total Items and Average Rating:** Shows the total items sold and the average rating.
+- **Outlet Size and Location Analysis:** Breaks down sales by outlet size and location (Tier 1, Tier 2, Tier 3 cities).
+- **Fat Content and Item Type Analysis:** Visualizes sales based on fat content (low fat, regular) and item type categories.
+- **Outlet Type Comparison:**  Compares sales across different outlet types (Supermarket Type1, Grocery Store, etc.).
+- **Data Filtering:** Interactive filter panels allow users to drill down into specific data segments.
 
-Item Type Breakdown: Detailed sales data for different item types such as fruits and vegetables, snack foods, household items, and more.
+## Data Transformation and Cleaning
 
-Outlet Establishment Year: A timeline graph showing the establishment years of outlets, highlighting growth trends over time.
+The sales data underwent a cleaning and transformation process:
 
-Outlet Size and Location: Analysis of outlet sizes (medium, small, high) and location types (Tier 1, Tier 2, Tier 3), with corresponding sales figures.
+- **Handling Missing Values:** Missing values were assumed to be negligible and were dropped for simplicity.
+- **Data Type Conversion:** Sales data was converted to numeric for calculations.
+- **Feature Engineering:** No new features were engineered in this version.
+- **Outlier Treatment:** Outliers were not explicitly handled in this initial version.
 
-Outlet Type Performance: Comparative data for different outlet types (Supermarket Type 1, Grocery Store, Supermarket Type 2, Supermarket Type 3) including total sales, average sales, total items, and item visibility.
+## Exploratory Data Analysis (EDA)
 
-## Data Transformation and Cleaning:
-The data used in this project has undergone significant transformation and cleaning processes to ensure its accuracy and reliability. This involved handling missing values, correcting inconsistencies, and normalizing data formats.
+EDA was performed to understand data patterns and trends:
 
-## Exploratory Data Analysis (EDA):
-Extensive EDA was conducted to uncover patterns, correlations, and insights within the data. This helped in creating a meaningful and informative dashboard that provides actionable insights for decision-makers.
+- **Descriptive Statistics:** Basic statistics (mean, median, etc.) were calculated for sales and ratings.
+- **Data Visualization:** Bar charts, pie charts, and line graphs were used to visualize sales trends.
+- **Correlation Analysis:** Correlation analysis was not performed in this version.
 
-## Credits:
-This project was guided by Data Tutorials, a YouTube channel that provided valuable insights and tutorials on data analysis and visualization. Special thanks to Data Tutorials for their support and guidance.
+## Project Inspiration and Guidance
+
+This project was inspired by and received guidance from the "Data Tutorials" YouTube channel. I extend my sincere gratitude to them for their valuable tutorials and support.
+
+## Technologies Used
+
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Streamlit
+
+## Setup and Installation
+
+1. Clone the repository: `git clone https://github.com/janviAnalysis/Projects.git`
+2. **Set up the environment:**
+   - Ensure you have Python 3.7 or higher installed.
+   - Create a virtual environment (recommended): `python3 -m venv venv` (Windows: `python -m venv venv`)
+   - Activate the environment: `source venv/bin/activate` (Windows: `venv\Scripts\activate`)
+   - Install dependencies: `pip install -r requirements.txt`  (Create `requirements.txt` with `pandas`, `matplotlib`, `seaborn`, `streamlit` inside).
+
+## Usage
+
+1. Navigate to the project directory: `cd Projects`
+2. Run the dashboard: `streamlit run your_dashboard_script.py` (Replace `your_dashboard_script.py` with your actual script name)
+3. Interact with the dashboard:
+   - Use the filter panels on the left to select different criteria (outlet location, size, fat content, item type).
+   - The charts will update dynamically based on your selections.
+   - Explore the different visualizations to understand sales trends and key performance indicators.
+
+## Contributions
+
+Contributions are welcome! Please feel free to submit pull requests or open issues for any suggestions or improvements.
+
+## Contact
+
+Janvi Ambazhakan - https://www.linkedin.com/in/janvi-ambazhakan-950b39271?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bk%2FbgzG5FRRyeH0Rc8d9Zdw%3D%3D
+
